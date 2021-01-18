@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import PropsObjectCreation from "./react-practice/PropsObjectCreation";
+import SettingState from "./react-practice/SettingState";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         >
           Learn React
         </a>
+        <PropsObjectCreation name={"ObjectStructure"} />
+        <SettingState name={"aravind"} />
       </header>
     </div>
   );
