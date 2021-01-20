@@ -8,6 +8,13 @@ export default class SettingState extends React.Component {
     };
   }
 
+  /**   Notes
+   *
+   * we have to set the state only through the setState otherwise component re-render wont happen...
+   * Thats what we have in this method...
+   *
+   */
+
   componentDidMount() {
     console.log("Step 1", this.state.name);
     //updating the state without setState -> Component re-render wont happen...
