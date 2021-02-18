@@ -6,6 +6,7 @@ const ContextExample = () => {
    * Step 3 : Creating a consumer for recieving the data from the Provider
    * closest provider's value will be take into effect...
    * if uncomment the below line, then ThemeContext value will be "Oh Shit"
+   * https://ui.dev/react-context/ - Reference
    */
   //   const ThemeContext = React.createContext("Oh Shit");
   return (
