@@ -13,3 +13,18 @@ Draggable:
 https://lo-victoria.com/making-draggable-components-in-react
 Bulletin Board:
 https://victoria-lo.github.io/bulletin-board/
+
+LocalStorage Example:
+
+1. https://www.robinwieruch.de/local-storage-react
+
+Cookies In React : Today\*\*\*
+https://www.npmjs.com/package/js-cookie - this is for JS, for React you have use React-Cookie
+https://www.npmjs.com/package/react-cookie
+
+Cookies - Nice Example
+//getCookie, setCookie, removeCookie from the useCookies hooks example...
+https://shouts.dev/how-to-set-remove-cookie-in-react#step2
+
+Code Grepper...Nice place to look for code snippet and syntax...
+https://www.codegrepper.com/code-examples/

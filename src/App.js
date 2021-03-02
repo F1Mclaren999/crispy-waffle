@@ -11,6 +11,10 @@ import ThemeContext from "./react-practice/ThemeContext";
 import ContextExample from "./react-practice/ContextExample";
 import FocusUsingRef from "./react-practice/FocusUsingRef";
 import Drag from "./react-practice/Drag";
+import BulletinIndex from "./bulletinBoard/BulletinIndex";
+import LocalStorage from "./storageExamples/LocalStorageEx";
+import SessionStorage from "./storageExamples/SessionStorageEx";
+import CookieEx from "./storageExamples/CookeeEx";
 
 function lightChanger() {
   return "light";
@@ -84,7 +88,11 @@ function App() {
         </div>
       </div> */}
 
-      {<Drag />}
+      {/* {<Drag />} */}
+      {/* {<BulletinIndex />} */}
+      {/* {<LocalStorage />} */}
+      {/* {<SessionStorage />} */}
+      {<CookieEx />}
     </>
   );
 }
