@@ -15,6 +15,9 @@ import BulletinIndex from "./bulletinBoard/BulletinIndex";
 import LocalStorage from "./storageExamples/LocalStorageEx";
 import SessionStorage from "./storageExamples/SessionStorageEx";
 import CookieEx from "./storageExamples/CookeeEx";
+import LifeCycle from "./lifeCycle/LifeCycle";
+import PDF from "./pdf/PDF";
+import PDFHooks from "./pdf/PDFHooks";
 
 function lightChanger() {
   return "light";
@@ -92,7 +95,10 @@ function App() {
       {/* {<BulletinIndex />} */}
       {/* {<LocalStorage />} */}
       {/* {<SessionStorage />} */}
-      {<CookieEx />}
+      {/* {<CookieEx />} */}
+      {/* {<LifeCycle />} */}
+      {/* {<PDF pdfFile={"./java-collections-cheat-sheet.pdf"} />} */}
+      {<PDFHooks pdfFile={"./java-collections-cheat-sheet.pdf"} />}
     </>
   );
 }
