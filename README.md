@@ -18,7 +18,7 @@ LocalStorage Example:
 
 1. https://www.robinwieruch.de/local-storage-react
 
-Cookies In React : Today\*\*\*
+Cookies In React :
 https://www.npmjs.com/package/js-cookie - this is for JS, for React you have use React-Cookie
 https://www.npmjs.com/package/react-cookie
 
@@ -28,3 +28,15 @@ https://shouts.dev/how-to-set-remove-cookie-in-react#step2
 
 Code Grepper...Nice place to look for code snippet and syntax...
 https://www.codegrepper.com/code-examples/
+
+//React Projects Reference...
+https://reactjsexample.com/tag/select/
+
+### Simple React Projects...
+
+https://reactjsexample.com/
+https://reactjs.org/community/examples.html
+
+Reference Section:
+https://flaviocopes.com/
+https://softchris.github.io/books/react/router-parameters/

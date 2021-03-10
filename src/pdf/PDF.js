@@ -1,3 +1,8 @@
+/****
+ * Simple View PDF from Local Example...
+ *
+ */
+
 import React, { Component } from "react";
 import { Document, Page } from "react-pdf";
 

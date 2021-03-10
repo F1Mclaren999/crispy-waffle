@@ -18,6 +18,9 @@ import CookieEx from "./storageExamples/CookeeEx";
 import LifeCycle from "./lifeCycle/LifeCycle";
 import PDF from "./pdf/PDF";
 import PDFHooks from "./pdf/PDFHooks";
+import UploadingPdf from "./pdf/UploadingPdf";
+import DarkModeLocalStorage from "./storageExamples/DarkModeLocalStorage";
+import Todo from "./react-practice/Todo";
 
 function lightChanger() {
   return "light";
@@ -98,7 +101,10 @@ function App() {
       {/* {<CookieEx />} */}
       {/* {<LifeCycle />} */}
       {/* {<PDF pdfFile={"./java-collections-cheat-sheet.pdf"} />} */}
-      {<PDFHooks pdfFile={"./java-collections-cheat-sheet.pdf"} />}
+      {/* {<PDFHooks pdfFile={"./java-collections-cheat-sheet.pdf"} />} */}
+      {/* <UploadingPdf /> */}
+      {/* {<DarkModeLocalStorage />} */}
+      {<Todo />}
     </>
   );
 }

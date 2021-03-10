@@ -1,3 +1,7 @@
+/*******
+ * Ref: https://codesandbox.io/s/displaying-pdf-using-react-5d003?from-embed=&file=/src/components/pdf/single-page.js:132-1219
+ *
+ * */
 import React, { Component } from "react";
 import { Document, Page } from "react-pdf";
 
@@ -59,5 +63,3 @@ const PDFHooks = ({ pdfFile }) => {
 };
 
 export default PDFHooks;
-
-// Ref: https://codesandbox.io/s/displaying-pdf-using-react-5d003?from-embed=&file=/src/components/pdf/single-page.js:132-1219
