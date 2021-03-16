@@ -21,6 +21,9 @@ import PDFHooks from "./pdf/PDFHooks";
 import UploadingPdf from "./pdf/UploadingPdf";
 import DarkModeLocalStorage from "./storageExamples/DarkModeLocalStorage";
 import Todo from "./react-practice/Todo";
+import Memos from "./react-core/Memos";
+import RiverApp from "./optimization/RiverApp";
+import FileNamer from "./event-handling/FileNamer";
 
 function lightChanger() {
   return "light";
@@ -104,7 +107,10 @@ function App() {
       {/* {<PDFHooks pdfFile={"./java-collections-cheat-sheet.pdf"} />} */}
       {/* <UploadingPdf /> */}
       {/* {<DarkModeLocalStorage />} */}
-      {<Todo />}
+      {/* {<Todo />} */}
+      {/* {<Memos />} */}
+      {/* {<RiverApp />} */}
+      {<FileNamer />}
     </>
   );
 }
